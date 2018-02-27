@@ -1,0 +1,23 @@
+# Site settings
+title: CRISP
+description: > # this means to ignore newlines until "url:"
+  University of South Florida CRISP website
+url: "" # the base hostname & protocol for your site
+#github_username:  arguslab
+
+logo: "/assets/img/logo.png"
+profile_pics: "/assets/img/profiles"
+
+# Build settings
+markdown: kramdown
+
+# Reading Files
+include:
+  - _pages
+keep_files:
+  - .git
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+plugins:
+  - jekyll-redirect-from

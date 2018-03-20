@@ -1,0 +1,33 @@
+-   title: About Us
+    id: about
+    content: The goal of the proposed research is to develop an integrative decision making framework with consideration
+     of physical-based, virtual-based, and socioeconomic-based interdependencies between water, transportation and
+     cyber infrastructures for evaluating strategies to enhance the resiliency of interdependent critical infrastructures.
+
+-   title: Task 1
+    id: t1
+    content: Task 1 employs water and transportation infrastructures to examine the impact of physical-based interdependencies on the operational resiliency of the infrastructures.
+
+
+-   title: Task 2
+    id: t2
+    content: Task 2 uses transportation and cyber infrastructures to investigate the impact of virtual-based interdependencies.
+
+-   title: Task 3
+    id: t3
+    content: Task 3 integrates all three infrastructures based on Tasks 1 and 2 and adds another type of interdependency,
+      socioeconomic-based interdependency, to examine the operational strategies of the infrastructures.
+
+-   title: Task 4
+    id: t4
+    content: Task 4 identifies influential factors in managing CIs and provides feedbacks for Tasks 1-3 in terms of
+      design and operational strategies.
+
+-   title: Task 5
+    id: t5
+    content: Design and operational strategies (Tasks 1-3) and socioeconomic factors (Task 4) will feed into Task 5 for
+      the development of a multi-method adaptive simulator with strategic consideration of organizational theories.
+
+-   title: Task 6
+    id: t6
+    content: The simulator from task 5 will be used as the foundation for the competition-based learning game

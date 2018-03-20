@@ -15,3 +15,14 @@ layout: default
         </div>
     </header>
 </div>
+
+<!-- Container for the main body -->
+<div class="container">
+    {% for section in site.data.sections %}
+
+        {% include /section.html %}
+
+        <div class="divider"></div>
+
+    {% endfor %}
+</div>

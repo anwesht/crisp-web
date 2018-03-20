@@ -8,53 +8,126 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
 
 /* Adding this from bootstrap. */
-.text-right{text-align:right}
+.text-right {
+    text-align: right
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Center image */
+img.center-img {
+    display: block;
+    margin: auto;
+}
+
+/* Section Padding */
+.section.padding {
+    padding: 7em 0;
+    position: relative
+}
+
+/* Overlap two divs */
+.overlap {
+    margin-top: -150px;
+    position: relative;
+}
+
+/* Creating larger container */
+.wrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+@media only screen and (min-width: 601px) {
+    .wrapper {
+        margin: 0 auto;
+        max-width: 960px;
+    }
+
+    .section.padding {
+        padding: 3em 0;
+        position: relative
+    }
+
+    .overlap {
+        margin-top: -90px;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1500px;
+    }
+
+    .section.padding {
+        padding: 7em 0;
+        position: relative
+    }
+
+    .overlap {
+        margin-top: -90px;
+        position: relative;
+    }
+}

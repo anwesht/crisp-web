@@ -7,14 +7,16 @@
 <html>
 {% include /head.html %}
 <body>
-<div id="wrapper">
     {% include /header.html %}
 
     <!-- Main -->
+    <main>
     <div id="main">
         {{ content }}
 
     </div>
+    </main>
+
     {% include /footer.html %}
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -27,8 +29,11 @@
         $(document).ready(function() {
             // This command is used to initialize some elements and make them work properly
             $.material.init();
+            // Activate the dropdown menu
+            $(".dropdown-button").dropdown();
+
         });
     </script>
-</div>
 </body>
+
 </html>

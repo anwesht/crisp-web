@@ -2,18 +2,21 @@
 <div class="col s12 m4 l3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
     <div class="card large">
         <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{{site.profile_pics}}/{{member.photo}}">
+            <img class="activator" style="vertical-align: middle;" src="{{site.profile_pics}}/{{member.photo}}">
         </div>
         <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">{{member.name}}<i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4">
+                {{member.name}}<i class="material-icons right">more_vert</i>
+            </span>
             <!--<p><a href="#">PhD Candidate</a></p>-->
             <p>{{member.title}} </p>
             <a href={{member.website}} target="_blank">{{member.website}}</a>
             <!--</p>-->
         </div>
         <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">{{member.name}}<i class="material-icons right">close</i></span>
-            <p>{{member.desc}}</p>
+            <span class="card-title grey-text text-darken-4">{{member.name}}<i
+                    class="material-icons right">close</i></span>
+            <p class="text-justify">{{member.desc}}</p>
         </div>
     </div>
 </div>

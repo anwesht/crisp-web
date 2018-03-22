@@ -5,12 +5,20 @@
     photo: anwesh.jpg
     desc: I am a PhD candidate in the department of computer science.
 
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p1.png
-    desc: [SHORT BIO]
+
+-   name: Qing Lu
+    title: Associate Professor
+    website: http://cee.eng.usf.edu/faculty/qlu/
+    email: qlu@usf.edu
+    photo: qinglu.jpg
+    desc: Qing Lu is an Associate Professor in the Department of Civil and Environmental Engineering at the
+      University of South Florida (USF). He obtained his Ph.D. degree in Civil Engineering and M.A. degree in
+      Statistics from the University of California at Berkeley. He worked for the University of California Pavement
+      Research Center as a project scientist and a laboratory manager before he joined the USF. He has sponsored
+      research projects in the areas of asphalt materials and pavements, pavement design, maintenance, and management,
+      pavement evaluation and safety, and critical infrastructures resiliency.  His research areas include sustainable
+      pavement engineering, transportation infrastructure management, highway designs for sustainable,
+      environment-friendly, electric and autonomous transportation.
 
 -   name: [NAME]
     title: [TITLE]

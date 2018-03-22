@@ -7,7 +7,7 @@ baseurl: "/crisp-web"
 #github_username:  arguslab
 
 logo: "/assets/img/logo.png"
-profile_pics: "/assets/img/profiles"
+profile_pics: "/crisp-web/assets/img/profiles"
 
 # Build settings
 markdown: kramdown

@@ -3,7 +3,7 @@
     <ul id="dropdown" class="dropdown-content">
         {% for section in site.data.sections %}
 
-        <li><a href="/index.html#{{section.id}}">{{section.title}}</a></li>
+        <li><a href="{{ site.baseurl }}/index.html#{{section.id}}">{{section.title}}</a></li>
 
         {% endfor %}
 
@@ -12,7 +12,7 @@
     <ul id="mobile-dropdown" class="dropdown-content">
         {% for section in site.data.sections %}
 
-        <li><a href="/index.html#{{section.id}}">{{section.title}}</a></li>
+        <li><a href="{{ site.baseurl }}/index.html#{{section.id}}">{{section.title}}</a></li>
 
         {% endfor %}
 
@@ -20,7 +20,7 @@
 
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="/index.html" class="brand-logo">CRISP</a>
+            <a id="logo-container" href="{{ site.baseurl }}/index.html" class="brand-logo">CRISP</a>
             <!--<a id="logo-container" href="#" class="brand-logo left"> <img class="responsive-img" src={{site.logo}}> </a>-->
 
             <ul class="right hide-on-med-and-down">
@@ -30,9 +30,9 @@
                         Home<i class="material-icons right">arrow_drop_down</i>
                     </a>
                 </li>
-                <li><a href="/people.html">People</a></li>
-                <li><a href="/research.html">Research</a></li>
-                <li><a href="/index.html">Publications</a></li>
+                <li><a href="{{ site.baseurl }}/people.html">People</a></li>
+                <li><a href="{{ site.baseurl }}/research.html">Research</a></li>
+                <li><a href="{{ site.baseurl }}/index.html">Publications</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
@@ -42,9 +42,9 @@
                         Home<i class="material-icons right">arrow_drop_down</i>
                     </a>
                 </li>
-                <li><a href="/people.html">People</a></li>
-                <li><a href="/research.html">Research</a></li>
-                <li><a href="/index.html">Publications</a></li>
+                <li><a href="{{ site.baseurl }}/people.html">People</a></li>
+                <li><a href="{{ site.baseurl }}/research.html">Research</a></li>
+                <li><a href="{{ site.baseurl }}/index.html">Publications</a></li>
             </ul>
 
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>

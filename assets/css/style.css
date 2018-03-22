@@ -131,3 +131,8 @@ img.center-img {
         position: relative;
     }
 }
+
+/* Justify text */
+text-justify{
+    text-align:justify
+}

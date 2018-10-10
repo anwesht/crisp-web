@@ -6,8 +6,8 @@ url: "https://github.com/anwesht" # the base hostname & protocol for your site
 baseurl: "/crisp-web"
 #github_username:  arguslab
 
-logo: "/assets/img/logo.png"
-profile_pics: "/crisp-web/assets/img/profiles"
+logo: "assets/img/logo.png"
+profile_pics: "assets/img/profiles"
 
 # Build settings
 markdown: kramdown

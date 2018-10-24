@@ -1,3 +1,116 @@
+-   name: Dr. Qiong (Jane) Zhang
+    title: Associated Professor, Vasant Surti Faculty Fellow
+    website: http://cee.eng.usf.edu/faculty/qiongzhang/
+    email: qiongzhang@usf.edu
+    photo: qiong.jpg
+    desc: Dr. Qiong (Jane) Zhang is an Associate Professor in the Department of Civil and Environmental Engineering at
+        University of South Florida. Her research focuses on sustainability assessment, process modeling and system
+        modeling with applications to water and wastewater systems, solid waste systems, water-energy-nutrient nexus
+        and critical interdependent infrastructures. Her research strongly emphasizes life cycle thinking, systems
+        thinking and bio-inspired thinking with intent to transform how we design our infrastructures with discovery
+        and application of the universal principles across human and natural systems. Her students are currently
+        developing treatment process models and decision support tools with active collaboration with partnering
+        utilities for integrated water/wastewater systems for resource recovery, interdependent water, transportation
+        and cyber infrastructures for resilience improvement, and watershed level green infrastructure implementation
+        for stormwater management.
+
+-   name: Dr. Qing Lu
+    title: Associate Professor
+    website: http://cee.eng.usf.edu/faculty/qlu/
+    email: qlu@usf.edu
+    photo: qinglu.jpg
+    desc: Qing Lu is an Associate Professor in the Department of Civil and Environmental Engineering at the
+        University of South Florida (USF). He obtained his Ph.D. degree in Civil Engineering and M.A. degree in
+        Statistics from the University of California at Berkeley. He worked for the University of California Pavement
+        Research Center as a project scientist and a laboratory manager before he joined the USF. He has sponsored
+        research projects in the areas of asphalt materials and pavements, pavement design, maintenance, and management,
+        pavement evaluation and safety, and critical infrastructures resiliency.  His research areas include sustainable
+        pavement engineering, transportation infrastructure management, highway designs for sustainable,
+        environment-friendly, electric and autonomous transportation.
+
+-   name: Dr. Yu Zhang
+    title: Associate Professor, Co-Director of Center for Transportation, Environment, and Community Health
+    website: http://www.nexts-lab.com
+    email: yuzhang@usf.edu
+    photo: yu.jpg
+    desc: Dr. Yu Zhang is an Associate Professor in the Department of Civil and Environmental Engineering at
+        University of South Florida and leads the Next Generation Transportation System Lab (Nexts-Lab).
+        Her research applies operations research techniques to model and analyze transportation systems with
+        applications in air transportation, resilient infrastructure, shared mobility, and emerging technologies
+        and innovative services in transportation.  Dr. Zhang has published more than thirty papers in prestigious
+        transportation journals and been invited to present her work in many high-influential international conferences.
+        Dr. Zhang serves as the Chair of Transportation Research Board standing committee on airfield and airspace
+        capacity and delay and on the editorial board of Transportation Research Part C- Emerging Technologies and
+        International Journal of Sustainable Transportation.
+
+-   name: Dr. Shima Mohebbi
+    title: Assistant Professor
+    website: http://www.ou.edu/coe/ise/people/shima-mohebbi.html
+    email: mohebbi@ou.edu
+    photo: shima.jpg
+    desc: Shima Mohebbi is an assistant professor in the School of Industrial and Systems Engineering (ISE)
+        at the University of Oklahoma. She received her PhD in ISE, and her second Master’s degree in Statistics
+        from the University of Tennessee, and achieved several academic recognitions and fellowships during her graduate studies.
+        She joined the Department of Civil and Environmental Engineering at the University of South Florida for her postdoctoral
+        studies in 2015. She was also a visiting scholar in the University of Exeter’s center for water systems, UK, in summer 2017.
+        Dr. Mohebbi’s research interests include algorithmic game theory, simulation modeling, stochastic programming, and high dimensional data mining.
+
+-   name: Dr. Xinming (Simon) Ou
+    title: Professor
+    website: http://www.cse.usf.edu/~xou/
+    email: xou@usf.edu
+    photo: xou.jpg
+    desc: Dr. Xinming (Simon) Ou is professor of Computer Science and
+        Engineering at University of South Florida. He received his PhD from
+        Princeton University in 2005. Before joining USF in fall 2015, he had
+        been a faculty member at Kansas State University since 2006.  Dr. Ou's
+        research is primarily in cyber defense technologies, with focuses on
+        human-centered approaches. He has broad interest and on-going work in
+        cyber-physical system security, intrusion/forensics analysis,
+        moving-target defense, and mobile system security. He is the author of
+        the MulVAL attack graph tool which has been used by Idaho National
+        Laboratory, Defence Research and Development Canada -- Ottawa, NATO,
+        NIST, Thales Groups, General Dynamics, Johns Hopkins University
+        Applied Physics Lab, Swedish Defence Research Agency, Army Research
+        Laboratory, and researchers from numerous academic
+        institutions. Dr. Ou's research has been funded by U.S. National
+        Science Foundation, Department of Defense, Department of Homeland
+        Security, Department of Energy, National Institute of Standards and
+        Technology (NIST), HP Labs, and Rockwell Collins. He is a recipient of
+        2010 NSF Faculty Early Career Development (CAREER) Award, a three-time
+        winner of HP Labs Innovation Research Program (IRP) award, and 2013
+        Kansas State University Frankenhoff Outstanding Research Award.
+
+-   name: Dr. E. Christian Wells
+    title: Professor of Anthropology
+    website: http://uweb.cas.usf.edu/~ecwells/
+    email: ecwells@usf.edu
+    photo: wells.jpg
+    desc: Dr. Christian Wells is Professor of Anthropology and Director of the Center for Brownfields Research and
+        Redevelopment at the University of South Florida, where he has served previously as Founding Director of the
+        Office of Sustainability and as Deputy Director of the College of Global Sustainability. He is an applied
+        environmental anthropologist who conducts NSF- and EPA-funded research on how people’s values and beliefs influence
+        their interactions with WaSH (water, sanitation, and hygiene) infrastructure. He has published over 100 scientific
+        articles and essays and his work has been featured by various media outlets including The New York Times and New
+        Scientist. He was recently awarded the Faculty Outstanding Research Achievement Award, the Global Achievement Award
+        for Outstanding Global Student Success, and the Jerome Krivanek Distinguished Teacher Award from the University of
+        South Florida along with the Black Bear Award by the Sierra Club of Tampa Bay “in recognition of outstanding
+        dedication to sustainability and the environment.”
+
+
+-   name: Dr. Tingting Zhao
+    title: Postdoctoral Research Scholar
+    website: https://www.linkedin.com/in/tingting-zhao-0696a02b/
+    email: tingtingzhao@mail.usf.edu
+    photo: tina.png
+    desc: Dr. Zhao is a postdoctoral researcher in Department of Civil & Environmental Engineering at USF.
+        Her area of interests are transportation system resilience analysis, transportation system modeling and
+        simulation, traffic flow theory and oscillation detection, control methods for connected and autonomous
+        vehicles, and charging facility location optimization for Electric Vehicles especially EV bus system. She
+        served as peer reviewer for various journals and conferences such as IEEE Transactions on Intelligent
+        Transportation Systems, Journal of Advanced Transportation, Transportation Research Record-Journal of
+        the Transportation Research Board, and IEEE Conference on Intelligent Transportation Systems.
+
 -   name: Anwesh Tuladhar
     title: PhD Candidate
     website: http://anwesht.github.io/
@@ -5,85 +118,46 @@
     photo: anwesh.jpg
     desc: I am a PhD candidate in the department of computer science.
 
+-   name: Hung Nguyen
+    title: PhD Student
+    email: nqh@mail.usf.edu
+    photo: hung.jpg
+    desc: Hung is a doctoral student in the Department of Industrial Management Systems Engineering.
+        Prior to joining USF, he worked at Intel Products Vietnam as a Process & Equipment Engineer for 4 years and
+        Jetstar Pacific Airlines for 1 year. His research interest and experiences are data analytics and
+        system reliability, condition-based monitoring and health management.
 
--   name: Qing Lu
-    title: Associate Professor
-    website: http://cee.eng.usf.edu/faculty/qlu/
-    email: qlu@usf.edu
-    photo: qinglu.jpg
-    desc: Qing Lu is an Associate Professor in the Department of Civil and Environmental Engineering at the
-      University of South Florida (USF). He obtained his Ph.D. degree in Civil Engineering and M.A. degree in
-      Statistics from the University of California at Berkeley. He worked for the University of California Pavement
-      Research Center as a project scientist and a laboratory manager before he joined the USF. He has sponsored
-      research projects in the areas of asphalt materials and pavements, pavement design, maintenance, and management,
-      pavement evaluation and safety, and critical infrastructures resiliency.  His research areas include sustainable
-      pavement engineering, transportation infrastructure management, highway designs for sustainable,
-      environment-friendly, electric and autonomous transportation.
+-   name: Noha Abdel-Mottaleb
+    title: PhD Student
+    email: nohaa@mail.usf.edu
+    photo: noha.jpg
+    desc: Noha is a student in the Civil and Environmental Engineering Department, with a water resources concentration.
+        Her research investigates the function of water infrastructure in the greater context of urban design.
 
--   name: Shima Mohebbi
-    title: Assistant Professor
-    website: http://www.ou.edu/coe/ise/people/shima-mohebbi.html
-    email: mohebbi@ou.edu
-    photo: shima_mohebbi.jpg
-    desc: Shima Mohebbi is an assistant professor in the School of Industrial and Systems Engineering (ISE)
-         at the University of Oklahoma. She received her PhD in ISE, and her second Master’s degree in Statistics
-         from the University of Tennessee, and achieved several academic recognitions and fellowships during her graduate studies. 
-         She joined the Department of Civil and Environmental Engineering at the University of South Florida for her postdoctoral
-         studies in 2015. She was also a visiting scholar in the University of Exeter’s center for water systems, UK, in summer 2017.
-         Dr. Mohebbi’s research interests include algorithmic game theory, simulation modeling, stochastic programming, and high dimensional data mining. 
+-   name: Shihab Uddin
+    title: PhD Student
+    website: https://www.linkedin.com/in/shihab-uddin-185039a5/
+    email: shihabuddin@mail.usf.edu
+    photo: shihab.jpg
+    desc: Shihab Uddin is currently a PhD student in the Department of Civil and Environmental Engineering at USF.
+        He got his bachelors in Civil Engineering from Bangladesh in 2015 and Masters in Civil Engineering
+        (Transportation) (MCE) from USF in 2018. Shihab also works as a Research Assistant in USF under
+        Dr. Qing Lu’s supervision. His research interests include resilience of transportation infrastructure,
+        interdependency between transportation and other critical infrastructures, travel demand and traffic flow
+        modeling and simulation. As part of USF CRISP diverse research group, he is working on identifying and
+        modeling physical and/or geospatial interdependency between water and transportation infrastructure.
+        The overall objective of his research is to enhance the resiliency of both infrastructures utilizing the
+        findings from interdependency model. Part of his research is also trying to identify critical links in the
+        transportation network using regional travel demand model as a tool.
 
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p1.png
-    desc: [SHORT BIO]
-
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p1.png
-    desc: [SHORT BIO]
-
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p2.png
-    desc: [SHORT BIO]
-
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p2.png
-    desc: [SHORT BIO]
-
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p2.png
-    desc: [SHORT BIO]
-
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p1.png
-    desc: [SHORT BIO]
-
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p1.png
-    desc: [SHORT BIO]
-
--   name: [NAME]
-    title: [TITLE]
-    website: [WEBSITE (OPTIONAL)]
-    email: [EMAIL]
-    photo: p2.png
-    desc: [SHORT BIO]
+-   name: Leili Soltanisehat
+    title: Ph.D. Student, Graduate research Assistant
+    website: https://www.linkedin.com/in/leili-soltanisehat-3a7a2071/
+    email: Leili.Soltanisehat-1@ou.edu
+    photo: leili.jpg
+    desc: Leili Soltanisehat is a Ph.D. student and Graduate Research assistant in the Industrial and Systems
+        Engineering Department at the University of Oklahoma. She has been honored through receipt of the graduate
+        scholarship by Old Dominion University on 2016. She earned the graduate certificate in Engineering Management
+        and System Engineering from Old Dominion University. Her research is focused on modeling and simulating of the
+        interdependent critical infrastructures’ resiliency. Also she has done parallel research on decentralized systems
+        specifically on Blockchain Technology.

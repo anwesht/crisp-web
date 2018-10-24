@@ -1,33 +1,77 @@
--   title: About Us
-    id: about
-    content: The goal of the proposed research is to develop an integrative decision making framework with consideration
-     of physical-based, virtual-based, and socioeconomic-based interdependencies between water, transportation and
-     cyber infrastructures for evaluating strategies to enhance the resiliency of interdependent critical infrastructures.
+-   title: Goal of the project
+    id: goal
+    content: Enhance the resiliency of interdependent critical infrastructures through the integrated
+      decision-making framework.
 
--   title: Task 1
+-   title: Objectives of the project
+    id: objective
+    content: <ul>
+      <li class="light"> &#9658; Examine the infrastructure resiliency associated with design configurations </li>
+      <li class="light"> &#9658; Examine the infrastructure resiliency associated with operational strategies </li>
+      <li class="light"> &#9658; Examine organizational strategies that recognize critical infrastructure (CI)
+        interdependencies </li>
+      <li class="light"> &#9658; Develop an adaptive simulator for high-level stakeholders to identify/quantify the failure
+        impacts and potential strategies </li>
+      <li class="light"> &#9658; Develop the Resilient Infrastructures Learning Game (RILG) for public participation and
+        dissemination </li>
+      </ul>
+
+
+-   title: Task 1 &#x3a; Physical-based Interdependency – Water-transportation Modeling
     id: t1
-    content: Task 1 employs water and transportation infrastructures to examine the impact of physical-based interdependencies on the operational resiliency of the infrastructures.
+    content: <ul>
+      <li class="light"> &#9658; <b> Objective </b> &#x3a; Investigate the impact of physical-based interdependencies
+        (primarily common rights-of-way) using a multi-layer network modeling approach </li>
+      <li class="light"> &#9658; <b> Progress </b> &#x3a; Three activities are being conducted under this task. </li>
+      </ul>
 
 
--   title: Task 2
+-   title: Task 2 &#x3a; Virtual Interdependency – Transportation-cyber Modeling
     id: t2
-    content: Task 2 uses transportation and cyber infrastructures to investigate the impact of virtual-based interdependencies.
+    content: <ul>
+      <li class="light"> &#9658; <b> Objective </b> &#x3a; Investigate the impact of virtual-based dependencies on the
+        operational resiliency using transportation and cyber as infrastructure examples (such as cyber attack on TMC
+        center, signals or detectors, or cyber failure caused by natural disaster, cyber attack, out of power) </li>
+      <li class="light"> &#9658; <b> Progress </b> &#x3a; The activity with a focus of problem formulation on system
+      resilience optimization is being conducted under this task. </li>
+      </ul>
 
--   title: Task 3
+-   title: Task 3 &#x3a; Integrated critical infrastructure management
     id: t3
-    content: Task 3 integrates all three infrastructures based on Tasks 1 and 2 and adds another type of interdependency,
-      socioeconomic-based interdependency, to examine the operational strategies of the infrastructures.
+    content: <ul>
+      <li class="light"> &#9658; <b> Objective </b> &#x3a; Propose an innovative prognostic and health management (PHM)
+        framework to maintain and improve the resiliency of critical infrastructures</li>
+      <li class="light"> &#9658; <b> Progress </b> &#x3a; Two activities with one focusing on proactive maintenance
+        and one on restoration planning are being conducted under this task.
+      </li>
+      </ul>
 
--   title: Task 4
+-   title: Task 4 &#x3a; Parameters of Organizational Resiliency
     id: t4
-    content: Task 4 identifies influential factors in managing CIs and provides feedbacks for Tasks 1-3 in terms of
-      design and operational strategies.
+    content: <ul>
+      <li class="light"> &#9658; <b> Objective </b> &#x3a; Identify influential factors in managing CIs and the
+        strategies creating consensus among high-level stakeholders63. We will also apply conceptual validation for the
+        descriptive variables. </li>
+      <li class="light"> &#9658; <b> Progress </b> &#x3a; Stakeholder interviews and analysis are being conducted
+        under this task.  </li>
+      </ul>
 
--   title: Task 5
+-   title: Task 5 &#x3a; Multi-method Adaptive Simulator
     id: t5
-    content: Design and operational strategies (Tasks 1-3) and socioeconomic factors (Task 4) will feed into Task 5 for
-      the development of a multi-method adaptive simulator with strategic consideration of organizational theories.
+    content: <ul>
+      <li class="light"> &#9658; <b> Objective </b> &#x3a; Develop a multi-paradigm adaptive simulator, including
+        system dynamics that models socioeconomic systems via a top-down approach, and agent-based models that model a
+        network of stakeholders associated with the decision making and management process of CIs via a bottom-up
+        approach. </li>
+      <li class="light"> &#9658; <b> Progress </b> &#x3a;  The prototype agent-based simulation engine was designed
+        for the interdependent water-transportation infrastructures in the City of Tampa. Cascading algorithm and
+        decision-making behaviors for maintenance crew were designed and implanted in Java and AnyLogic software.</li>
+      </ul>
 
--   title: Task 6
+-   title: Task 6 &#x3a; Competition-based Game
     id: t6
-    content: The simulator from task 5 will be used as the foundation for the competition-based learning game
+    content: <ul>
+      <li class="light"> &#9658; <b> Objective </b> &#x3a; Design a simulation game platform such that different teams
+        from academia and practitioners can evaluate their developed strategies through a feedback learning
+        environment</li>
+      </ul>

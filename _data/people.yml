@@ -1,5 +1,6 @@
 -   name: Dr. Qiong (Jane) Zhang
     title: Associated Professor, Vasant Surti Faculty Fellow
+    title_short: Associated Professor
     website: http://cee.eng.usf.edu/faculty/qiongzhang/
     email: qiongzhang@usf.edu
     photo: qiong.jpg
@@ -16,6 +17,7 @@
 
 -   name: Dr. Qing Lu
     title: Associate Professor
+    title_short: Associate Professor
     website: http://cee.eng.usf.edu/faculty/qlu/
     email: qlu@usf.edu
     photo: qinglu.jpg
@@ -30,6 +32,7 @@
 
 -   name: Dr. Yu Zhang
     title: Associate Professor, Co-Director of Center for Transportation, Environment, and Community Health
+    title_short: Associate Professor
     website: http://www.nexts-lab.com
     email: yuzhang@usf.edu
     photo: yu.jpg
@@ -45,6 +48,7 @@
 
 -   name: Dr. Shima Mohebbi
     title: Assistant Professor
+    title_short: Assistant Professor
     website: http://www.ou.edu/coe/ise/people/shima-mohebbi.html
     email: mohebbi@ou.edu
     photo: shima.jpg
@@ -57,6 +61,7 @@
 
 -   name: Dr. Xinming (Simon) Ou
     title: Professor
+    title_short: Professor
     website: http://www.cse.usf.edu/~xou/
     email: xou@usf.edu
     photo: xou.jpg
@@ -83,6 +88,7 @@
 
 -   name: Dr. E. Christian Wells
     title: Professor of Anthropology
+    title_short: Professor of Anthropology
     website: http://uweb.cas.usf.edu/~ecwells/
     email: ecwells@usf.edu
     photo: wells.jpg
@@ -100,6 +106,7 @@
 
 -   name: Dr. Tingting Zhao
     title: Postdoctoral Research Scholar
+    title_short: Postdoctoral Research Scholar
     website: https://www.linkedin.com/in/tingting-zhao-0696a02b/
     email: tingtingzhao@mail.usf.edu
     photo: tina.png
@@ -113,6 +120,7 @@
 
 -   name: Anwesh Tuladhar
     title: PhD Candidate
+    title_short: PhD Candidate
     website: http://anwesht.github.io/
     email: atuladhar  [i]at[/i] mail [i]dot[/i] usf [i]dot[/i] edu
     photo: anwesh.jpg
@@ -120,6 +128,7 @@
 
 -   name: Hung Nguyen
     title: PhD Student
+    title_short: PhD Student
     email: nqh@mail.usf.edu
     photo: hung.jpg
     desc: Hung is a doctoral student in the Department of Industrial Management Systems Engineering.
@@ -129,6 +138,7 @@
 
 -   name: Noha Abdel-Mottaleb
     title: PhD Student
+    title_short: PhD Student
     email: nohaa@mail.usf.edu
     photo: noha.jpg
     desc: Noha is a student in the Civil and Environmental Engineering Department, with a water resources concentration.
@@ -136,6 +146,7 @@
 
 -   name: Shihab Uddin
     title: PhD Student
+    title_short: PhD Student
     website: https://www.linkedin.com/in/shihab-uddin-185039a5/
     email: shihabuddin@mail.usf.edu
     photo: shihab.jpg
@@ -152,6 +163,7 @@
 
 -   name: Leili Soltanisehat
     title: Ph.D. Student, Graduate research Assistant
+    title_short: Ph.D. Student
     website: https://www.linkedin.com/in/leili-soltanisehat-3a7a2071/
     email: Leili.Soltanisehat-1@ou.edu
     photo: leili.jpg
@@ -161,3 +173,23 @@
         and System Engineering from Old Dominion University. Her research is focused on modeling and simulating of the
         interdependent critical infrastructures’ resiliency. Also she has done parallel research on decentralized systems
         specifically on Blockchain Technology.
+
+-   name: Mathews J. Wakhungu
+    title: Research assistant
+    title_short: Research assistant
+    website: http://anthropology.usf.edu/graduate/Wakhungu/
+    email: mwakhungu@mail.usf.edu
+    photo: mathews.jpg
+    desc: Mathews is a doctoral student of applied anthropology in the Department of Anthropology at the University
+        of South Florida. His research is focused on understanding the social and cultural dimensions of water
+        infrastructures and how they affect infrastructure management and user experiences.  As a research assistant
+        on the USF-CRISP project, he uses anthropological approaches to evaluate the social, cultural, economic and
+        political factors that influence the resilience of critical and interdependent infrastructures.
+
+-   name: Zhiqiang (Adam) Wu
+    title: PhD student
+    title_short: PhD student
+    email: zhiqiangwu@mail.usf.edu
+    photo: adam.jpg
+    desc: Adam joined USF in 2016 and working as a research assistant for Dr. Yu Zhang. His researh interests include
+        electric vehicle charging and discharging scheduling, network modeling and statistic data analysis.

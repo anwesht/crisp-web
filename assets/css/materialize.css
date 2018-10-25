@@ -979,6 +979,10 @@
   color: #00b8d4 !important;
 }
 
+.usfgreen {
+  background-color: #006747 !important;
+}
+
 .teal {
   background-color: #009688 !important;
 }
@@ -4522,7 +4526,7 @@ h5 {
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 110%;
   margin: 0.5rem 0 0.4rem 0;
 }
@@ -7364,7 +7368,7 @@ input[type=range]:focus::-ms-fill-upper {
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 18px;
-  border-left: 2px solid #ee6e73;
+  border-left: 2px solid #CFC493;  /*USF gold*/
 }
 
 .side-nav {

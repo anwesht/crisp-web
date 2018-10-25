@@ -1,77 +1,10 @@
--   title: Goal of the project
-    id: goal
-    content: Enhance the resiliency of interdependent critical infrastructures through the integrated
-      decision-making framework.
-
--   title: Objectives of the project
-    id: objective
-    content: <ul>
-      <li class="light"> &#9658; Examine the infrastructure resiliency associated with design configurations </li>
-      <li class="light"> &#9658; Examine the infrastructure resiliency associated with operational strategies </li>
-      <li class="light"> &#9658; Examine organizational strategies that recognize critical infrastructure (CI)
-        interdependencies </li>
-      <li class="light"> &#9658; Develop an adaptive simulator for high-level stakeholders to identify/quantify the failure
-        impacts and potential strategies </li>
-      <li class="light"> &#9658; Develop the Resilient Infrastructures Learning Game (RILG) for public participation and
-        dissemination </li>
-      </ul>
-
-
--   title: Task 1 &#x3a; Physical-based Interdependency – Water-transportation Modeling
-    id: t1
-    content: <ul>
-      <li class="light"> &#9658; <b> Objective </b> &#x3a; Investigate the impact of physical-based interdependencies
-        (primarily common rights-of-way) using a multi-layer network modeling approach </li>
-      <li class="light"> &#9658; <b> Progress </b> &#x3a; Three activities are being conducted under this task. </li>
-      </ul>
-
-
--   title: Task 2 &#x3a; Virtual Interdependency – Transportation-cyber Modeling
-    id: t2
-    content: <ul>
-      <li class="light"> &#9658; <b> Objective </b> &#x3a; Investigate the impact of virtual-based dependencies on the
-        operational resiliency using transportation and cyber as infrastructure examples (such as cyber attack on TMC
-        center, signals or detectors, or cyber failure caused by natural disaster, cyber attack, out of power) </li>
-      <li class="light"> &#9658; <b> Progress </b> &#x3a; The activity with a focus of problem formulation on system
-      resilience optimization is being conducted under this task. </li>
-      </ul>
-
--   title: Task 3 &#x3a; Integrated critical infrastructure management
-    id: t3
-    content: <ul>
-      <li class="light"> &#9658; <b> Objective </b> &#x3a; Propose an innovative prognostic and health management (PHM)
-        framework to maintain and improve the resiliency of critical infrastructures</li>
-      <li class="light"> &#9658; <b> Progress </b> &#x3a; Two activities with one focusing on proactive maintenance
-        and one on restoration planning are being conducted under this task.
-      </li>
-      </ul>
-
--   title: Task 4 &#x3a; Parameters of Organizational Resiliency
-    id: t4
-    content: <ul>
-      <li class="light"> &#9658; <b> Objective </b> &#x3a; Identify influential factors in managing CIs and the
-        strategies creating consensus among high-level stakeholders63. We will also apply conceptual validation for the
-        descriptive variables. </li>
-      <li class="light"> &#9658; <b> Progress </b> &#x3a; Stakeholder interviews and analysis are being conducted
-        under this task.  </li>
-      </ul>
-
--   title: Task 5 &#x3a; Multi-method Adaptive Simulator
-    id: t5
-    content: <ul>
-      <li class="light"> &#9658; <b> Objective </b> &#x3a; Develop a multi-paradigm adaptive simulator, including
-        system dynamics that models socioeconomic systems via a top-down approach, and agent-based models that model a
-        network of stakeholders associated with the decision making and management process of CIs via a bottom-up
-        approach. </li>
-      <li class="light"> &#9658; <b> Progress </b> &#x3a;  The prototype agent-based simulation engine was designed
-        for the interdependent water-transportation infrastructures in the City of Tampa. Cascading algorithm and
-        decision-making behaviors for maintenance crew were designed and implanted in Java and AnyLogic software.</li>
-      </ul>
-
--   title: Task 6 &#x3a; Competition-based Game
-    id: t6
-    content: <ul>
-      <li class="light"> &#9658; <b> Objective </b> &#x3a; Design a simulation game platform such that different teams
-        from academia and practitioners can evaluate their developed strategies through a feedback learning
-        environment</li>
-      </ul>
+-   title: CRISP Type 2&#x3a; Integrative Decision Making Framework to Enhance the Resiliency of Interdependent Critical Infrastructures
+    id: crisp
+    content: The reliable functioning of infrastructures is critical to national security and fundamental to social,
+      economic, and environmental well-being. Cascading failures due to the interdependencies among different critical
+      infrastructures (CIs) demonstrate the need to understand the interdependency and resiliency of the CIs.
+      This CRISP research aims to understand the effects of physical-based (primarily co-location), virtual-based
+      (primarily information), and socioeconomic-based (primarily resource management) interdependencies on the
+      resiliency of critical infrastructures, focusing on water, transportation and cyber infrastructures, and to
+      develop an integrative decision making framework to evaluate and enhance the resiliency of interdependent
+      critical infrastructures under different scenarios.

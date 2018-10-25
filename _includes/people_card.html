@@ -9,13 +9,15 @@
                 {{member.name}}<i class="material-icons right">more_vert</i>
             </span>
             <!--<p><a href="#">PhD Candidate</a></p>-->
-            <p>{{member.title}} </p>
-            <a href={{member.website}} target="_blank">{{member.website}}</a>
+            <span>{{member.title_short}}</span>
+            <br>
+            <span><a href={{member.website}} target="_blank">personal page</a></span>
             <!--</p>-->
         </div>
         <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">{{member.name}}<i
                     class="material-icons right">close</i></span>
+            {{member.title}}
             <!--<p class="text-justify">{{member.desc}}</p>-->
             <p class="left-align">{{member.desc}}</p>
         </div>

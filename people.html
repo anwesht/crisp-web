@@ -1,14 +1,11 @@
 ---
-layout: default
+layout: page-header
+id: people
+title: Project Members
 ---
 <section id="features" class="section">
     <!-- People Page for Large Screen with 4 person per row. -->
     <div class="container hide-on-med-and-down">
-        <div class="section-header">
-            <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">People</h1>
-            <!--<h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Who seeks after it and wants to have it</h2>-->
-        </div>
-
         {% assign rows = site.data.people.size | divided_by: 4.0 | ceil %}
         {% for i in (1..rows) %}
         {% assign offset = forloop.index0 | times: 4 %}
@@ -24,11 +21,6 @@ layout: default
 
     <!-- People Page for Medium Screen with 3 person per row. -->
     <div class="container hide-on-large-only hide-on-small-only">
-        <div class="section-header">
-            <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">People</h1>
-            <!--<h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Who seeks after it and wants to have it</h2>-->
-        </div>
-
         {% assign rows = site.data.people.size | divided_by: 3.0 | ceil %}
         {% for i in (1..rows) %}
         {% assign offset = forloop.index0 | times: 3 %}
@@ -44,11 +36,6 @@ layout: default
 
     <!-- People Page for Small Screen with 1 person per row. -->
     <div class="container hide-on-med-and-up">
-        <div class="section-header">
-            <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">People</h1>
-            <!--<h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Who seeks after it and wants to have it</h2>-->
-        </div>
-
         {% assign rows = site.data.people.size | divided_by: 1.0 | ceil %}
         {% for i in (1..rows) %}
         {% assign offset = forloop.index0 | times: 1 %}

@@ -1,0 +1,61 @@
+---
+layout: page-header
+id: gallery
+title: Gallery
+---
+
+<section id="features" class="section">
+    <!-- People Page for Large Screen with 4 person per row. -->
+    <div class="container hide-on-med-and-down">
+        {% assign images = site.static_files | where_exp:"file", "file.path contains 'img/gallery'" %}
+        {% assign rows = images.size | divided_by: 4.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 4 %}
+        <div class="row">
+            {% for image in images limit:4 offset:offset %}
+
+            <div class="col s12 m4 l3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <img class="materialboxed responsive-img" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            </div>
+
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- People Page for Medium Screen with 3 person per row. -->
+    <div class="container hide-on-large-only hide-on-small-only">
+        {% assign images = site.static_files | where_exp:"file", "file.path contains 'img/gallery'" %}
+        {% assign rows = images.size | divided_by: 3.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 3 %}
+        <div class="row">
+            {% for image in images limit:3 offset:offset %}
+
+            <div class="col s12 m4 l3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <img class="materialboxed responsive-img" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            </div>
+
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- People Page for Small Screen with 1 person per row. -->
+    <div class="container hide-on-med-and-up">
+        {% assign images = site.static_files | where_exp:"file", "file.path contains 'img/gallery'" %}
+        {% assign rows = images.size | divided_by: 1.0 | ceil %}
+        {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 1 %}
+        <div class="row">
+            {% for image in images limit:1 offset:offset %}
+
+            <div class="col s12 m4 l3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <img class="materialboxed responsive-img" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            </div>
+
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</section>

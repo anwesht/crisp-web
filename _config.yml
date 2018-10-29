@@ -9,6 +9,7 @@ baseurl: "/crisp-web"
 
 logo: "assets/img/logo.png"
 profile_pics: "assets/img/profiles"
+diagrams: "assets/img/diagrams"
 
 # Build settings
 markdown: kramdown

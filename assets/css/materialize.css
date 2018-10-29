@@ -4708,6 +4708,10 @@ small {
           transform: scale(1);
 }
 
+.card-wrapper {
+  height: 100%;
+}
+
 .card-panel {
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;

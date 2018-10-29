@@ -2,8 +2,7 @@
 title: CRISP
 description: > # this means to ignore newlines until "url:"
   University of South Florida CRISP website
-url: "http://crisp.arguslab.org" # the base hostname & protocol for your site
-#baseurl: "/crisp-web"
+url: "http://crisp.eng.usf.edu" # the base hostname & protocol for your site
 # testing crisp url
 #github_username:  arguslab
 

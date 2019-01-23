@@ -12,15 +12,8 @@ title: CRISP Research
                 </h5>
 
                 <p class="text-justify light">
-                    The goal of the proposed research is to develop an integrative decision making framework with
-                    consideration of physical-based, virtual-based, and socioeconomic-based interdependencies between
-                    water, transportation and cyber infrastructures for evaluating strategies to enhance the resiliency
-                    of interdependent critical infrastructures. The proposed framework uses a hybrid system dynamics
-                    and agent-based modeling approach to integrate outcomes from different methods including:
-                    multi-layer network modeling (focus: design aspects of CIs); prognostic and health management
-                    modeling with consideration of both continuous performance deterioration and discrete critical
-                    events (focus: operational aspects of CIs); and consensus analysis and Monte Carlo simulation
-                    of decision making outcomes (focus: organizational aspects of CIs).
+                    Enhance the resiliency of interdependent critical infrastructures through the integrated
+                    decision-making framework
                 </p>
 
                 <img class="responsive-img" src="{{site.diagrams}}/project-goal.png">
@@ -36,8 +29,8 @@ title: CRISP Research
                 <ul>
                     <li class="light"> <i class="tiny material-icons">chevron_right</i>
                         Examine the infrastructure resiliency associated with design configurations </li>
-                    <li class="light"> <i class="tiny material-icons">chevron_right</i> Examine the infrastructure
-                        resiliency associated with operational strategies
+                    <li class="light"> <i class="tiny material-icons">chevron_right</i>
+                        Examine the infrastructure resiliency associated with operational strategies
                     </li>
                     <li class="light"> <i class="tiny material-icons">chevron_right</i>
                         Examine organizational strategies that recognize critical infrastructure (CI)
@@ -85,18 +78,17 @@ title: CRISP Research
                 <p class="text-justify light">
                     The purpose of water infrastructure simulation is to evaluate the resilience of the current
                     City of Tampa water distribution infrastructure and to assess the interdependency between it
-                    and other infrastructure systems (e.g. transportation, cyber, socio-economic impacts).
-                    The water distribution network model is used within the open source hydraulic modeling
-                    software, EPANET, to conduct simulations and analyses as described in the following.
-                    Extended period simulation of each individual water distribution component failure has
-                    been completed for the City of Tampa network, including both junctions and pipes.
-                    In conjunction with failure thresholds, the simulation results were also used to construct
-                    a logical consequence network, to represent relationships of hydraulic influence between
-                    different components within the water distribution network. The logical consequence network
-                    allows identification of critical and vulnerable components, which is a key to enhancing
-                    resilience. Network based topological analyses were conducted for both the physical-spatial
-                    water distribution network and the logical consequence network. In addition, a combination
-                    of simulation and network based approaches has been explored.
+                    and other infrastructure systems (e.g. transportation, cyber, socio-economic impacts). The water
+                    distribution network model is used within the open source hydraulic modeling software, EPANET,
+                    to conduct simulations and analyses as described in the following. Extended period simulation
+                    of each individual water distribution component failure has been completed for the City of Tampa
+                    network, including both junctions and pipes. In conjunction with failure thresholds, the simulation
+                    results were also used to construct a logical consequence network, to represent relationships of
+                    hydraulic influence between different components within the water distribution network. The logical
+                    consequence network allows identification of critical and vulnerable components, which is a key to
+                    enhancing resilience. Network based topological analyses were conducted for both the
+                    physical-spatial water distribution network and the logical consequence network. In addition,
+                    a combination of simulation and network based approaches has been explored.
                 </p>
 
                 <h6 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="200ms">
@@ -106,19 +98,19 @@ title: CRISP Research
                 <p class="text-justify light">
                     Tampa Bay Regional Planning Model (TBRPM) version 8.2 and CUBE Voyager package as simulation
                     software programs are used to simulate the traffic performance influenced by transportation
-                    infrastructure. To reduce the time of simulation, a subarea model involving only the City of
-                    Tampa transportation network has been developed. This subarea model consists of CUBE packages
-                    for ‘highway assignment’ program which assigns origin-destination traffic volume to different
-                    routes. The ultimate goals of the simulation are to identify the most critical links in the
-                    network based on several performance measures and determine the impacts if one or more of these
-                    critical links become dysfunctional. This process includes removing (100% capacity reduction)
-                    one link from the network, letting the model reassign the traffic volume on that link to other
-                    available routes, and then determining the effect of this reassignment based on three different
-                    performance measures. The performance measures being considered are, summation of link travel
-                    times of all links, summation of link flow multiplied by link travel time for all links and
-                    summation of volume to capacity ratio (v/c) for links with v/c greater than one. The decision
-                    to choose these measures for the subarea model to evaluate the network has been taken based on
-                    the results from previously mentioned District 7 simulation.
+                    infrastructure. To reduce the time of simulation, a subarea model involving only the City of Tampa
+                    transportation network has been developed. This subarea model consists of CUBE packages for
+                    ‘highway assignment’ program which assigns origin-destination traffic volume to different routes.
+                    The ultimate goals of the simulation are to identify the most critical links in the network based
+                    on several performance measures and determine the impacts if one or more of these critical links
+                    become dysfunctional. This process includes removing (100% capacity reduction) one link from the
+                    network, letting the model reassign the traffic volume on that link to other available routes,
+                    and then determining the effect of this reassignment based on three different performance measures.
+                    The performance measures being considered are, summation of link travel times of all links,
+                    summation of link flow multiplied by link travel time for all links and summation of volume
+                    to capacity ratio (v/c) for links with v/c greater than one. The decision to choose these measures
+                    for the subarea model to evaluate the network has been taken based on the results from previously
+                    mentioned District 7 simulation.
                 </p>
 
                 <h6 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="200ms">
@@ -128,18 +120,17 @@ title: CRISP Research
                 <p class="text-justify light">
                     Performance measures and failure thresholds have been adopted for both water and transportation
                     infrastructures. The adopted measure and thresholds will be used to quantify vulnerability and
-                    resilience to account for physical/co-location interdependencies. An interface network was
-                    created for the City of Tampa by: overlaying both water distribution and transportation roads,
-                    accounting for road lane width, and extracting their intersection within ArcGIS. The interface
-                    network topology was analyzed from a network analysis perspective as a directed network, while
-                    it also served as a logical network representing failure propagation from the water distribution
-                    network to the transportation roads. Using the logical consequence networks from water and
-                    transportation, a mathematical model for identification of critical water distribution components
-                    while accounting for interdependency with the transportation road network was created.
-                    A multi-objective optimization approach was used to solve the problem. Results from solving
-                    the multi-objective optimization problem were the critical components and were then integrated
-                    into the ArcGIS environment for further geo-spatial analyses, making the model results useful
-                    for utilities.
+                    resilience to account for physical/co-location interdependencies. An interface network was created
+                    for the City of Tampa by: overlaying both water distribution and transportation roads, accounting
+                    for road lane width, and extracting their intersection within ArcGIS. The interface network topology
+                    was analyzed from a network analysis perspective as a directed network, while it also served as a
+                    logical network representing failure propagation from the water distribution network to the
+                    transportation roads. Using the logical consequence networks from water and transportation,
+                    a mathematical model for identification of critical water distribution components while accounting
+                    for interdependency with the transportation road network was created. A multi-objective optimization
+                    approach was used to solve the problem. Results from solving the multi-objective optimization
+                    problem were the critical components and were then integrated into the ArcGIS environment for
+                    further geo-spatial analyses, making the model results useful for utilities.
                 </p>
             </div>
 
@@ -156,11 +147,12 @@ title: CRISP Research
                         Objectives
                     </h6>
                     <ul>
-                        <li class="light"> <i class="tiny material-icons">chevron_right</i> Investigate the impact
-                            of virtual-based dependencies on the operational resiliency using transportation and cyber
-                            as infrastructure examples (such as cyber attack on TMC
-                            center, signals or detectors, or cyber failure caused by natural disaster, cyber attack,
-                            out of power) </li>
+                        <li class="light"> <i class="tiny material-icons">chevron_right</i>
+                            Investigate the impact of virtual-based dependencies on the operational resiliency using
+                            transportation and cyber as infrastructure examples (such as cyber attack on TMC center,
+                            signals or detectors, or cyber failure caused by natural disaster, cyber attack, out of
+                            power)
+                        </li>
                     </ul>
 
                     <h6 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="200ms">
@@ -180,9 +172,9 @@ title: CRISP Research
                         measure involving travel time and unmet demand in a transportation system is proposed as the
                         objective function to solve the problem for the infrastructure restoration planning after
                         disruptive events. To integrate the quantification of resilience measures with restoration
-                        decision-making, a bi-level optimization model is proposed. The upper- and lower-level problems
-                        were solved by a modified active set algorithm and a network representation method derived
-                        from Network Design Problems, respectively. Furthermore, a simulation based optimization
+                        decision-making, a bi-level optimization model is proposed. The upper- and lower-level
+                        problems were solved by a modified active set algorithm and a network representation method
+                        derived from Network Design Problems, respectively. Furthermore, a simulation based optimization
                         framework was proposed for traffic signal restoration sequence optimization after signal
                         failure. Two resilience measures, the accumulated total delay and the maximum total delay
                         during restoration are proposed to quantify the system performance resulting from different
@@ -230,11 +222,11 @@ title: CRISP Research
                         deteriorating physical infrastructure (e.g., transportation/water infrastructure) was developed
                         to utilize the field monitoring/inspection data in improving the failure prediction of physical
                         infrastructure. Both novel Bayesian model and computational algorithm have been developed to
-                        analyze the bi-level heterogeneous degradation data and realize both off-line model learning of
-                        multiple deteriorating infrastructure components (e.g., roads, pipes) and on-line sequential
-                        updating of an individual deteriorating component. Both the numerical case study and real case
-                        study were further performed to demonstrate the effectiveness of the proposed methodological
-                        framework.
+                        analyze the bi-level heterogeneous degradation data and realize both off-line model learning
+                        of multiple deteriorating infrastructure components (e.g., roads, pipes) and on-line sequential
+                        updating of an individual deteriorating component. Both the numerical case study and real
+                        case study were further performed to demonstrate the effectiveness of the proposed
+                        methodological framework.
                     </p>
 
                     <h6 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="200ms">
@@ -246,8 +238,8 @@ title: CRISP Research
                         This activity focused on formulating and solving stochastic and deterministic optimization
                         models to account for failures and their propagations across infrastructures, while two levels
                         of interdependencies (physical and socioeconomic) were taken into accounts. The mathematical
-                        model was solved for the simplified interdependent water-transportation networks in the City
-                        of Tampa.
+                        model was solved for the simplified interdependent water-transportation networks in the
+                        City of Tampa.
                     </p>
                 </div>
             </div>
